@@ -9,3 +9,6 @@ RabbitMQ monitoring can be a key point of your system management. Therefore we s
 
 See [README.md](./100/README.md)
 
+## 200 Step 2 – Deploying RabbitMQ on Kubernetes
+
+See [README.md](./200/README.md)
