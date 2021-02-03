@@ -7,5 +7,21 @@ In that case, the only thing we need to do is to override some configuration pro
 First, I’m enabling logging to the console at the debug level. Then I’m also enabling all the required plugins.
 
 ```
-
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rabbitmq
+  labels:
+    name: rabbitmq
+data:
+  rabbitmq.conf: |-
+    loopback_users.guest = false
+    log.console = true
+    log.console.level = debug
+    log.exchange = true
+    log.exchange.level = debug
+  enabled_plugins: |-
+    [rabbitmq_management,rabbitmq_prometheus,rabbitmq_tracing].
 ```
+k8s/rabbitmq-deployment.yaml (only partly shown here)
+
