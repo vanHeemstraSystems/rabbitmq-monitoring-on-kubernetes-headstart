@@ -13,7 +13,7 @@ vanheemstrasystems/rabbitmq-monitoring
 FROM rabbitmq:3-management
 RUN rabbitmq-plugins enable --offline rabbitmq_prometheus rabbitmq_tracing
 ```
-dockerfile
+k8s/Dockerfile
 
 Then you just need to build an already defined image. Let’s say its name is vanheemstrasystems/rabbitmq-monitoring. After building I’m pushing it to my remote Docker registry.
 
