@@ -4,7 +4,7 @@ In the first step, we are overriding the Docker image of RabbitMQ. In that case,
 
 | | rabbitmq-monitoring | |
 | -- | -- | -- |
-| | plugin | |
+| | rabbitmq-plugins: rabbitmq_prometheus, rabbitmq_tracing | |
 | | Base Image: rabbitmq:3-management | |
 
 vanheemstrasystems/rabbitmq-monitoring
