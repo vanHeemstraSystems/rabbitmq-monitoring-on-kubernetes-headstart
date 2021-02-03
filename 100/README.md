@@ -15,7 +15,7 @@ vanheemstrasystems/rabbitmq-monitoring
 FROM rabbitmq:3-management
 RUN rabbitmq-plugins enable --offline rabbitmq_prometheus rabbitmq_tracing
 ```
-k8s/Dockerfile
+k8s/Dockerfile.rabbitmq
 
 NOTE:  The naming convention is: ***Dockerfile*** with no extension. If you need more than one Dockerfile for the same build context, the suggested naming convention is:
 ```
