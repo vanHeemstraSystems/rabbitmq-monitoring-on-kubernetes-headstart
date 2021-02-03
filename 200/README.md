@@ -22,6 +22,7 @@ data:
     log.exchange.level = debug
   enabled_plugins: |-
     [rabbitmq_management,rabbitmq_prometheus,rabbitmq_tracing].
+---
 ```
 k8s/rabbitmq-deployment.yaml (only partly shown here)
 
