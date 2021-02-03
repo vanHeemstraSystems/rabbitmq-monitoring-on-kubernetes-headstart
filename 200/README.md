@@ -25,3 +25,7 @@ data:
 ```
 k8s/rabbitmq-deployment.yaml (only partly shown here)
 
+
+... more
+
+*** WE ARE HERE ***
