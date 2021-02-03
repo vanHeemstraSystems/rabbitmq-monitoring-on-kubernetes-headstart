@@ -26,6 +26,6 @@ These dockerfiles could be in the root of your build context or in a subdirector
 Then you just need to build an already defined image. Let’s say its name is vanheemstrasystems/rabbitmq-monitoring. After building I’m pushing it to my remote Docker registry.
 
 ```
-$ docker build -t vanheemstrasystems/rabbitmq-monitoring .
+$ docker build -f Dockerfile.rabbitmq -t vanheemstrasystems/rabbitmq-monitoring .
 $ docker push vanheemstrasystems/rabbitmq-monitoring
 ```
