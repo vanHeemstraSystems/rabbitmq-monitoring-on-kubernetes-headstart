@@ -4,3 +4,9 @@ Based on "RabbitMQ Monitoring on Kubernetes" at https://piotrminkowski.com/2020/
 
 See also "Building an Application with Spring Boot" at https://spring.io/guides/gs/spring-boot/
 
+## 100 Requirements
+
+- JDK 1.8 or later
+- Gradle 4+ or Maven 3.2+
+
+... MORE
