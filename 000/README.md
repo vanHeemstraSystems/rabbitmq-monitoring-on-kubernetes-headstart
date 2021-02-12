@@ -11,7 +11,7 @@ See also "Building an Application with Spring Boot" at https://spring.io/guides/
 
 - POM file
 
-Create the folowing POM file in the root diretory of the repository.
+Create the following POM file in the root diretory of the repository.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
