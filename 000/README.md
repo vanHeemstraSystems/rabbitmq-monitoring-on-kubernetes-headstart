@@ -33,6 +33,17 @@ Create the following POM file in the root diretory of the repository.
 ```
 pom.xml
 
+- .gitignore file
+
+Create the following .gitignore file in the root directory of the repository:
+
+```
+# Project exclude paths
+/publisher/target/
+/consumer/target/
+```
+.gitignore
+
 
 ## 200 Create Publisher
 
