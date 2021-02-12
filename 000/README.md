@@ -9,6 +9,31 @@ See also "Building an Application with Spring Boot" at https://spring.io/guides/
 - JDK 1.8 or later
 - Gradle 4+ or Maven 3.2+ (this example uses Maven)
 
+- POM file
+
+Create the folowing POM file in the root diretory of the repository.
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.vanheemstrasystems</groupId>
+	<artifactId>rabbitmq-monitoring-on-kubernetes</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0</version>
+	<modules>
+		<module>consumer</module>
+		<module>publisher</module>
+	</modules>
+  
+</project>
+```
+pom.xml
+
+
 ## 200 Create Publisher
 
 See [README.md](./200/README.md)
