@@ -21,14 +21,14 @@ Create the following POM file in the root diretory of the repository.
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.vanheemstrasystems</groupId>
-	<artifactId>rabbitmq-monitoring-on-kubernetes</artifactId>
+	<artifactId>rabbitmq-monitoring-on-kubernetes-headstart</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0</version>
 	<modules>
-		<module>consumer</module>
 		<module>publisher</module>
+		<module>consumer</module>
 	</modules>
-  
+
 </project>
 ```
 pom.xml
